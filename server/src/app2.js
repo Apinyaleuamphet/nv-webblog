@@ -24,12 +24,12 @@ app.post('/user/', function (req, res) {
 })
 // edit user
 app.put('/user/:userId', function (req, res) {
- res.send('ทาํการแกไ้ขผใุ้ชง้าน: ' + req.params.userId + ' : ' +
+ res.send('ทำการแก้ไขผู้ใช้งาน: ' + req.params.userId + ' : ' +
 JSON.stringify(req.body))
 })
 // delete user
 app.delete('/user/:userId', function (req, res) {
- res.send('ทําการลบผุ้ใช้งาน: ' + req.params.userId + ' : ' +
+ res.send('ทําการลบผู้ใช้งาน: ' + req.params.userId + ' : ' +
  JSON.stringify(req.body))
 })
 let port = 8081
